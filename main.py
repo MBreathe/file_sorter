@@ -11,6 +11,9 @@ def main():
     :return: None
     """
 
+    # TODO: add CLI interactions
+    # TODO: package and make it executable via terminal
+
     # Iterate through files in Downloads
     for file in os.listdir(paths["downloads"]):
         match_file(file)
